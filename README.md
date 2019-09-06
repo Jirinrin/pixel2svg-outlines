@@ -1,6 +1,6 @@
 # pixel2svg OUTLINE VERSION
 
-This project was forked(-ish) from [pixel2svg](https://florian-berger.de/en/software/pixel2svg/) by Florian Berger (email: fberger@florian-berger.de), which converts an image file into an svg with a 'rect' for every pixel.  
+This project was forked(-ish) from [pixel2svg](https://florian-berger.de/en/software/pixel2svg/) by [Florian Berger](https://florian-berger.de/en/), which converts an image file into an svg with a 'rect' for every pixel.  
 I wanted to make a version of this that merges all pixels that are the same colour, so that e.g. for an all-white pixel icon you'll just get 1 path instead of max 32x32 `<rect>`s.  
 So that's what I did, making use of [mmgp's StackOverflow post](https://stackoverflow.com/a/13851341) as the powerhouse that converts a bunch of squares to the outlines of a shape.  
 And upgraded old stuff to Python 3 & added a nice short&sweet batch script so you can easily run this in bulk for an array of image files.
