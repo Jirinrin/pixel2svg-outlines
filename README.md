@@ -7,11 +7,11 @@ And upgraded old stuff to Python 3 & added a nice short&sweet batch script so yo
 
 ## How to use (Windows)
 
-1. Have the following installed:
+- Have the following installed:
   - Python 3 + PIP
   - Pillow ([available on PIP](https://pypi.org/project/Pillow/2.2.2/))
   - svgwrite ([available on PIP](https://pypi.org/project/svgwrite/))
-2. run `python setup.py install` (honestly unsure what this is even necessary for but whatever)
-3. Throw some image files into the [convert](./convert) folder
-4. Run [execute.bat](./execute.bat) to get them all converted to svg (these files will be output into the same folder)
+- run `python setup.py install` (honestly unsure what this is even necessary for but whatever)
+- Throw some image files into the [convert](./convert) folder
+- Run [execute.bat](./execute.bat) to get them all converted to svg (these files will be output into the same folder)
   - Or you can manually call the pixel2svg file for 1 image file with `python pixel2svg.py {path to image} --squaresize={your square size, default 40}`
