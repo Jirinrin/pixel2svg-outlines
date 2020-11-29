@@ -7,11 +7,8 @@ And upgraded old stuff to Python 3 & added a nice short&sweet batch script so yo
 
 ## How to use (Windows)
 
-- Have the following installed:
-  - Python 3 + PIP
-  - Pillow ([available on PIP](https://pypi.org/project/Pillow/2.2.2/))
-  - svgwrite ([available on PIP](https://pypi.org/project/svgwrite/))
-- run `python setup.py install` (honestly unsure what this is even necessary for but whatever)
+- Have Python 3 + PIP installed
+- Run (the commands in) [setup.bat](./setup.bat)
 - Throw some image files into the [convert](./convert) folder
 - Run [execute.bat](./execute.bat) to get them all converted to svg (these files will be output into the same folder)
   - Within execute.bat you can also edit the square size value: this is 1 pixel by default (in other words, no scaling happening) but can be adjusted here by just typing a new number.
